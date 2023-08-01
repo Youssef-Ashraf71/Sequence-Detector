@@ -1,0 +1,20 @@
+# Reading C:/Modelsim/modelsim_ase/tcl/vsim/pref.tcl 
+# Loading project state_machine_mealy
+# Compile of state_machine_mealy.v was successful.
+vsim -gui work.state_machine_mealy_tb
+# vsim -gui work.state_machine_mealy_tb 
+# Loading work.state_machine_mealy_tb
+# Loading work.state_machine_mealy
+add wave -position insertpoint sim:/state_machine_mealy_tb/*
+run
+# PASS: Sequence 11 detected i =           3
+# 
+# PASS: Sequence 11 detected i =           4
+# 
+# PASS: Sequence 11 detected i =           5
+# 
+# PASS: Sequence 11 detected i =           6
+# 
+# PASS: Sequence 11 detected i =           7
+# 
+quit -sim
